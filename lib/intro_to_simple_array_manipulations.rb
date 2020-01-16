@@ -1,47 +1,47 @@
-def using_push(Array, String)
-  return Array.push(String)
+def using_push(array, string)
+  return array.push(string)
 end
 
-def using_unshift(Array, String)
-  return Array.unshift(String)
+def using_unshift(array, string)
+  return array.unshift(string)
 end
 
-def using_pop(Array)
-  return Array.pop
+def using_pop(array)
+  return array.pop
 end
 
-def pop_with_args(Array)
-  return Array.pop(2)
+def pop_with_args(array)
+  return array.pop(2)
 end
 
-def using_shift(Array)
-  return Array.shift
+def using_shift(array)
+  return array.shift
 end
 
-def shift_with_args(Array)
-  return Array.shift(2)
+def shift_with_args(array)
+  return array.shift(2)
 end
 
-def using_concat(Array1, Array2)
-  return Array1.concat(Array2)
+def using_concat(array1, array2)
+  return array1.concat(array2)
 end
 
-def using_insert(Array, Element)
-  return Array.insert(4, Element)
+def using_insert(array, element)
+  return array.insert(4, element)
 end
 
-def using_uniq(Array)
-  return Array.uniq
+def using_uniq(array)
+  return array.uniq
 end
 
-def using_flatten(Array)
-  return Array.flatten
+def using_flatten(array)
+  return array.flatten
 end
 
-def using_delete(Array, String)
-  return Array.delete(String)
+def using_delete(array, string)
+  return array.delete(string)
 end
 
-def using_delete_at(Array, Integer)
-  return Array.delete_at(Intger)
+def using_delete_at(array, integer)
+  return array.delete_at(intger)
 end
