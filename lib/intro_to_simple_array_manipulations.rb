@@ -45,4 +45,3 @@ end
 def using_delete_at(Array, Integer)
   return Array.delete_at(Intger)
 end
-
