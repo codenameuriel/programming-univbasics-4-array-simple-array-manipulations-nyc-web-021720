@@ -26,6 +26,10 @@ def using_concat(Array1, Array2)
   return Array1.concat(Array2)
 end
 
+def using_insert(Array, Element)
+  Array.insert
+end
+
 
 
 
