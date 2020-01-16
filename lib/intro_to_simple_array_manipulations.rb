@@ -38,6 +38,9 @@ def using_flatten(Array)
   return Array.flatten
 end
 
+def using_delete(Array, String)
+  return Array.delete(String)
+end
 
 
 
